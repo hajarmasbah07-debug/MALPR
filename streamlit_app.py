@@ -567,8 +567,7 @@ st.markdown("""
 
 import base64
 
-# ✅ CHEMIN CORRIGÉ — hero_car.jpg doit être dans le même dossier que app.py
-HERO_IMAGE_PATH = Path("/Users/apple/Downloads/retailfinal/ALPR/Gemini_Generated_Image_iwlosuiwlosuiwlo.png")
+HERO_IMAGE_PATH = Path("VOITURE.png")
 
 def get_hero_b64(path):
     if path.exists():
